@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { useConvexAuth } from 'convex/react';
 import { ArrowRight } from 'lucide-react';

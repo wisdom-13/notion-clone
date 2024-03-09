@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { ReactNode } from 'react';
 import { ClerkProvider, useAuth } from "@clerk/clerk-react";
