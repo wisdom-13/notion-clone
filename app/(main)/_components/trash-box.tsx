@@ -40,7 +40,7 @@ export const TrashBox = () => {
       loading: 'Restoring note...',
       success: 'Note restored!',
       error: 'Failed to restore note.'
-    })
+    });
   };
 
   const onRemove = (
@@ -52,7 +52,7 @@ export const TrashBox = () => {
       loading: 'Deleting note...',
       success: 'Note deleted!',
       error: 'Failed to delete note.'
-    })
+    });
 
     if (params.documentId === documentId) {
       router.push('/documents')

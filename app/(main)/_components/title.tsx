@@ -7,7 +7,6 @@ import { Doc } from '@/convex/_generated/dataModel';
 import { api } from '@/convex/_generated/api';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { Ghost } from 'lucide-react';
 import { Skeleton } from '@/components/ui/skeleton';
 
 interface TitleProps {
@@ -39,7 +38,6 @@ export const Title = ({
   const onChange = (
     event: React.ChangeEvent<HTMLInputElement>
   ) => {
-    console.log('change')
     setTitle(event.target.value);
     update({
       id: initialData._id,
