@@ -257,7 +257,7 @@ export const getById = query({
     if (document.isPublished && !document.isArchived) {
       return document;
     }
-
+console.log('a')
     if (!identity) {
       throw new Error('Not authenticated');
     }
